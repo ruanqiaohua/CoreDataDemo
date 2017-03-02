@@ -13,17 +13,19 @@
 		F1DDB2FA1E67C332006FA977 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1DDB2F81E67C332006FA977 /* CoreDataDemo.xcdatamodeld */; };
 		F1DDB2FC1E67C332006FA977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DDB2FB1E67C332006FA977 /* Assets.xcassets */; };
 		F1DDB2FF1E67C332006FA977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DDB2FD1E67C332006FA977 /* LaunchScreen.storyboard */; };
+		F1DDB3651E6803C9006FA977 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DDB3641E6803C9006FA977 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1DDB2EE1E67C332006FA977 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DDB2F11E67C332006FA977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1DDB2F31E67C332006FA977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1DDB2F31E67C332006FA977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1DDB2F61E67C332006FA977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1DDB2F91E67C332006FA977 /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
 		F1DDB2FB1E67C332006FA977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DDB2FE1E67C332006FA977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1DDB3001E67C332006FA977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DDB3641E6803C9006FA977 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F1DDB2F11E67C332006FA977 /* AppDelegate.swift */,
+				F1DDB3641E6803C9006FA977 /* CoreDataManager.swift */,
 				F1DDB2F31E67C332006FA977 /* ViewController.swift */,
 				F1DDB2F51E67C332006FA977 /* Main.storyboard */,
 				F1DDB2FB1E67C332006FA977 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				F1DDB2F41E67C332006FA977 /* ViewController.swift in Sources */,
 				F1DDB2FA1E67C332006FA977 /* CoreDataDemo.xcdatamodeld in Sources */,
+				F1DDB3651E6803C9006FA977 /* CoreDataManager.swift in Sources */,
 				F1DDB2F21E67C332006FA977 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +310,7 @@
 				F1DDB3051E67C332006FA977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
